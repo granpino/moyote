@@ -14,3 +14,4 @@ sudo systemctl enable mosquitto.service.
 The moyote.py file retrieves the data from the arduino, and stores it to the data.txt.
 The clock.py script uses pygame to display the temperature and humidity. The clock.py script
 will load the moyote.py at start.
+The arduino is connected to a DHT22 sensor at pin D4.
