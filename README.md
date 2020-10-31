@@ -6,7 +6,9 @@ The idea of this project is to show one of the ways you can send data from an ar
 - On the Raspberry pi install the software as indicated.
 
 sudo pip install paho-mqtt.
+
 sudo apt install  mosquitto mosquitto-clients.
+
 sudo systemctl enable mosquitto.service.
 
 The moyote.py file retrieves the data from the arduino, and stores it to the data.txt.
